@@ -69,7 +69,6 @@ The objective is to perform data ingestion, data quality checks, transformation,
 In Progress 🚀
 
 Upcoming Tasks:
-
 * Bottom Product Analysis
 * Dashboard Development
 * Power BI Visualizations
