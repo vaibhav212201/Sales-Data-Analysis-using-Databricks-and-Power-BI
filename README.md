@@ -1,76 +1,177 @@
-# Sales Data ETL Pipeline using Databricks
+# 📊 Sales Analytics Dashboard
 
-## Project Overview
+## 📌 Project Overview
 
-This project focuses on building an end-to-end Sales Data ETL Pipeline using Databricks, Python, Pandas, SQL, and Power BI.
+This project focuses on analyzing sales data using Databricks, Python (Pandas), and Power BI to uncover business insights and create interactive dashboards.
 
-The objective is to perform data ingestion, data quality checks, transformation, business analysis, and dashboard creation using a real-world sales dataset.
+The objective was to perform data cleaning, exploratory data analysis (EDA), business analysis, and dashboard development to support data-driven decision-making.
 
-## Tech Stack
+---
 
-* Databricks
-* Python
-* Pandas
-* SQL
-* Power BI
-* GitHub
+## 🛠️ Tech Stack
 
-## Dataset Information
+- Databricks
+- Python
+- Pandas
+- Power BI
+- GitHub
 
-* Total Rows: 2823
-* Total Columns: 25
+---
 
-## Work Completed
+## 📂 Dataset Information
 
-### Data Ingestion
+Dataset contains:
 
-* Uploaded sales dataset to Databricks Volume
-* Loaded CSV file using Pandas
+- 2,823 records
+- 25 columns
+- Sales transactions across multiple countries, product categories, and territories
 
-### Data Profiling
+Key columns:
 
-* Dataset shape analysis
-* Column inspection
-* Data type analysis
-* Null value analysis
-* Duplicate record analysis
+- ORDERNUMBER
+- PRODUCTCODE
+- PRODUCTLINE
+- SALES
+- COUNTRY
+- TERRITORY
+- ORDERDATE
+- STATUS
 
-### Data Quality Checks
+---
 
-* Investigated missing values in:
+## 🔍 Data Cleaning & Preprocessing
 
-  * ADDRESSLINE2
-  * STATE
-  * POSTALCODE
-  * TERRITORY
-* Verified duplicate records
+### Completed Tasks
 
-### Data Transformation
+✅ Dataset ingestion in Databricks
 
-* Converted ORDERDATE from object to datetime format
-* Removed unnecessary columns
+✅ Shape and schema analysis
 
-### Business Analysis
+✅ Null value analysis
 
-* Top Revenue Category Analysis
-* Top Revenue Product Analysis
-* Country-wise Revenue Analysis
-* Monthly Sales Analysis
+✅ Duplicate record check
 
-## Key Insights
+✅ Data type validation
 
-* Highest Revenue Category: Classic Cars
-* Highest Revenue Product: S18_3232
-* Top Revenue Country: USA
-* Highest Sales Month: November
+✅ ORDERDATE conversion to datetime
 
-## Project Status
+✅ Address column optimization
 
-In Progress 🚀
+✅ Data quality assessment
 
-Upcoming Tasks:
-* Bottom Product Analysis
-* Dashboard Development
-* Power BI Visualizations
-* GitHub Documentation
-* Final Project Deployment
+---
+
+## 📈 Exploratory Data Analysis
+
+### Revenue Metrics
+
+- Total Revenue: **10.03M**
+- Total Orders: **307**
+- Total Units Sold: **99,067**
+
+### Product Analysis
+
+- Top Product Category: **Classic Cars**
+- Highest Revenue Product: **S18_3232**
+- Lowest Revenue Product: **S24_3969**
+
+### Geographic Analysis
+
+Top Revenue Countries:
+
+1. USA
+2. Spain
+3. France
+4. Australia
+5. UK
+
+### Territory Analysis
+
+- EMEA: Highest Revenue
+- APAC: Second Highest Revenue
+- Japan: Third Highest Revenue
+
+### Time Analysis
+
+- Highest Revenue Month: **November**
+- Sales peaked significantly during Month 11
+
+---
+
+## 📊 Dashboard Pages
+
+### Page 1 – Sales Analytics Dashboard
+
+Includes:
+
+- Total Revenue KPI
+- Total Orders KPI
+- Units Sold KPI
+- Monthly Revenue Trend
+- Revenue by Product Category
+- Revenue by Country
+
+### Page 2 – Product Performance Dashboard
+
+Includes:
+
+- Top 10 Revenue Generating Products
+- Bottom 10 Revenue Generating Products
+- Revenue by Territory
+
+---
+
+## 💡 Key Business Insights
+
+- USA generated the highest revenue among all countries.
+- Classic Cars was the best-performing product category.
+- Product S18_3232 generated the highest revenue.
+- Product S24_3969 generated the lowest revenue.
+- EMEA contributed the largest share of total sales.
+- November recorded the highest sales performance.
+
+---
+
+## 📁 Project Structure
+
+```text
+sales-data-analysis-databricks/
+
+├── notebooks/
+│   └── sales_analysis.ipynb
+
+├── dashboard/
+│   └── sales_dashboard.pbix
+
+├── screenshots/
+│   ├── page1_dashboard.png
+│   └── page2_dashboard.png
+
+├── dataset/
+│   └── sales_data_sample.csv
+
+└── README.md
+```
+
+---
+
+## 🚀 Project Outcome
+
+This project demonstrates:
+
+- Data Cleaning
+- Data Analysis
+- Business Intelligence
+- Dashboard Development
+- Data Visualization
+- End-to-End Analytics Workflow
+
+using Databricks, Python, Pandas, and Power BI.
+
+---
+
+### 👨‍💻 Author
+
+**Vaibhav Kaushal**
+
+Aspiring Data Engineer | Python | SQL | Databricks | Power BI
